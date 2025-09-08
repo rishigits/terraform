@@ -2,8 +2,8 @@ template: templates/loz-script-project.yaml
 overrides:
   artifacts:
     - type: script
+      version: 1.12.2
       build_script:
-        gh_name: terraform
         repo_name: linux-on-ibm-z-scripts
         path: src/build.sh
         args: --version 1.12.2
